@@ -1,11 +1,23 @@
 # `markdownlint-config`
 
-> TODO: description
+> 通用markdown语法规范
 
-## Usage
+支持配套的 [markdownlint 可共享配置](https://www.npmjs.com/package/markdownlint#optionsconfig)
 
+## 安装
+
+需要先行安装 [markdownlint](https://www.npmjs.com/package/markdownlint)
+
+```bash
+npm install encode-fe-markdownlint-config markdownlint --save-dev
 ```
-const markdownlintConfig = require('markdownlint-config');
 
-// TODO: DEMONSTRATE API
+## 使用
+
+创建并在 `.markdownlint.json` 中继承本包:
+
+```json
+{
+	"extends": "encode-fe-markdownlint-config"
+}
 ```
