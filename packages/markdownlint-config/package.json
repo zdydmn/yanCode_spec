@@ -1,12 +1,11 @@
 {
   "name": "yancode-fe-markdownlint-config",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "前端规范-markdown语法规范",
   "keywords": [
     "markdown",
     "lint",
     "yancode"
-    
   ],
   "author": "zdydmn <fengjiaqi0426@163.com>",
   "homepage": "https://github.com/zdydmn/yanCode_spec#readme",
